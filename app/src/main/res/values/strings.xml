@@ -1,0 +1,4 @@
+<resources>
+    <string name="my_application">My Application</string>
+    <string name="message_template">Подписка на рассылку успешно оформлена для пользователя %1$s на электронный адрес %2$s</string>
+</resources>

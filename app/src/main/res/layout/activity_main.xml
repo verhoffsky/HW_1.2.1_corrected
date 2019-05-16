@@ -11,7 +11,7 @@
         android:layout_width="276dp"
         android:layout_height="36dp"
         android:layout_marginTop="24dp"
-        android:text="Имя пользователя"
+        android:text="@string/text_name"
         android:textSize="20sp"
         app:layout_constraintHorizontal_bias="0.07"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -30,7 +30,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.043"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_name" />
+        app:layout_constraintTop_toBottomOf="@+id/text_name"
+        tools:ignore="Autofill,LabelFor" />
 
     <Button
         android:id="@+id/button_ok"
@@ -38,7 +39,7 @@
         android:layout_height="61dp"
         android:layout_marginBottom="24dp"
         android:background="#6AE4EE"
-        android:text="ОK"
+        android:text="@string/ok_button"
         app:layout_constraintBottom_toTopOf="@+id/button_delete"
         app:layout_constraintEnd_toEndOf="@+id/button_delete"
         app:layout_constraintStart_toStartOf="@+id/button_delete"
@@ -52,7 +53,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="176dp"
         android:background="#6AE4EE"
-        android:text="Очистить"
+        android:text="@string/delete_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,7 +66,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:text="Электронная почта"
+        android:text="@string/text_mail"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.042"
@@ -84,7 +85,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.047"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_mail" />
+        app:layout_constraintTop_toBottomOf="@+id/text_mail"
+        tools:ignore="Autofill,LabelFor" />
 
     <TextView
         android:id="@+id/text_successful_subscribe"
